@@ -1,0 +1,1280 @@
+{
+  "scenes": [
+    {
+      "label": "furniture",
+      "leftFilters": [
+        {"CIPhotoEffectChrome": {}},
+        {"CIVignette": {"inputIntensity": 0.5, "inputRadius": 0.7}},
+        {"CIColorControls":{"inputSaturation":1.2,"inputBrightness": 0.1,"inputContrast": 1.1 }},
+        {"CIExposureAdjust":{"inputEV": 0.5}},
+        {"CIVibrance":{"inputAmount": 0.5}},
+        {"CISharpenLuminance":{"inputSharpness": 0.5}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        
+
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectInstant": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {"CIColorControls": {"inputSaturation": 1.5}},
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.7
+          }
+        },
+        {
+          "CIBloom": {
+            "inputIntensity": 1.5,
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 2.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.5
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2,
+            "inputShadowRadius": 5.0
+          }
+        },
+        {
+          "CIColorPosterize": {
+            "inputLevels": 5.0
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputHighlightAmount": 0.2,
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CIComicEffect": {}
+        },
+      ]
+    },
+    {
+      "label": "person",
+      "leftFilters": [
+        {"CIPhotoEffectNoir": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIHueAdjust": {
+            "inputAngle": 0.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.5
+          }
+        },
+        {
+          "CIBoxBlur": {
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputHighlightAmount": 0.2
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 5.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        }
+
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTonal": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIHueAdjust": {
+            "inputAngle": 0.05
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.9,
+            "inputBrightness": 0.05
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIHueAdjust": {
+            "inputAngle": 0.2
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.6
+          }
+        },
+        {
+          "CINoiseReduction": {
+            "inputNoiseLevel": 0.02,
+            "inputSharpness": 0.4
+          }
+        },
+      ]
+    },
+    {
+      "label": "outdoors",
+      "leftFilters": [
+        {"CIPhotoEffectMono": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 1.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTransfer": {}},
+        {"CIVignette": {"inputIntensity": 0.7, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIBloom": {
+            "inputIntensity": 0.8,
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIHueAdjust": {
+            "inputAngle": 0.1
+          }
+        },
+        {
+          "CISkyAndSun": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+
+      ]
+    },
+    {
+      "label": "kitchen",
+      "leftFilters": [
+        {"CIPhotoEffectProcess": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIHueAdjust": {
+            "inputAngle": 0.1
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectChrome": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIUnsharpMask": {
+            "inputRadius": 1.5,
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputShadowAmount": 0.2,
+            "inputHighlightAmount": 0.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.2
+          }
+        },
+      ]
+    },
+    {
+      "label": "office",
+      "leftFilters": [
+        {"CIPhotoEffectFade": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.3
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectInstant": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1,
+            "inputSaturation": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.2
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputHighlightAmount": 0.1
+          }
+        },
+        {
+          "CINoiseReduction": {
+            "inputNoiseLevel": 0.02,
+            "inputSharpness": 0.4
+          }
+        },
+      ]
+    },
+    {
+      "label": "sports",
+      "leftFilters": [
+        {"CIPhotoEffectNoir": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3
+          }
+        },
+        
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTonal": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIBoxBlur": {
+            "inputRadius": 5.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIMotionBlur": {
+            "inputAngle": 0.0,
+            "inputRadius": 30.0
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputShadowAmount": 0.2,
+            "inputHighlightAmount": 0.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.9
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.8
+          }
+        },
+        {
+          "CIPhotoEffectProcess": {}
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "label": "food",
+      "leftFilters": [
+        {"CIPhotoEffectMono": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}}
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTransfer": {}},
+        {"CIVignette": {"inputIntensity": 0.7, "inputRadius": 1.0}}
+      ]
+    },
+    {
+      "label": "living room",
+      "leftFilters": [
+        {"CIPhotoEffectProcess": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIUnsharpMask": {
+            "inputRadius": 1.5,
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIBoxBlur": {
+            "inputRadius": 5.0
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectChrome": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        {
+          "CIBloom": {
+            "inputIntensity": 0.5,
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.2
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.6
+          }
+        },
+        {
+          "CIBoxBlur": {
+            "inputRadius": 3.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputContrast": 1.2
+          }
+        }
+      ]
+    },
+    {
+      "label": "bathroom",
+      "leftFilters": [
+        {"CIPhotoEffectFade": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        },
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectInstant": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 5.0
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.9
+          }
+        },
+        
+      ]
+    },
+    {
+      "label": "bedroom",
+      "leftFilters": [
+        {"CIPhotoEffectNoir": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 5.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.1
+          }
+        },
+        
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTonal": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2,
+            "inputBrightness": 0.1,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.6
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CIBloom": {
+            "inputIntensity": 0.5,
+            "inputRadius": 10.0
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        
+      ]
+    },
+    {
+      "label": "clothing",
+      "leftFilters": [
+        {"CIPhotoEffectMono": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8
+          }
+        },
+        {
+          "CIVignette": {
+            "inputIntensity": 0.8,
+            "inputRadius": 1.5
+          }
+        },
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTransfer": {}},
+        {"CIVignette": {"inputIntensity": 0.7, "inputRadius": 1.0}},
+        {
+          "CIExposureAdjust": {
+            "inputEV": 0.2
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIHighlightShadowAdjust": {
+            "inputHighlightAmount": 0.2
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIColorPosterize": {
+            "inputLevels": 5.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.5,
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "label": "bookstore",
+      "leftFilters": [
+        {"CIPhotoEffectProcess": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectChrome": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.4
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+      ]
+    },
+    {
+      "label": "pets",
+      "leftFilters": [
+        {"CIPhotoEffectFade": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 2.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        }
+
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectInstant": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.9,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.0
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 5.0
+          }
+        },
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.6
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CIComicEffect": {}
+        },
+        {
+          "CIVignette": {
+            "inputIntensity": 0.7,
+            "inputRadius": 1.5
+          }
+        },
+      ]
+    },
+    {
+      "label": "electronics",
+      "leftFilters": [
+        {"CIPhotoEffectNoir": {}},
+        {"CISepiaTone": {"inputIntensity": 0.7}},
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.8
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTonal": {}},
+        {"CIVignette": {"inputIntensity": 0.6, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputHighlightAmount": 0.3
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "label": "household_items",
+      "leftFilters": [
+        {"CIPhotoEffectMono": {}},
+        {"CISepiaTone": {"inputIntensity": 0.8}},
+        {
+          "CIVibrance": {
+            "inputAmount": 0.7
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.2
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.2
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.8
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.5
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputSaturation": 1.3,
+            "inputContrast": 1.1
+          }
+        },
+        {
+          "CIShadowHighlight": {
+            "inputShadowAmount": 0.2
+          }
+        }
+      ],
+      "rightFilters": [
+        {"CIPhotoEffectTransfer": {}},
+        {"CIVignette": {"inputIntensity": 0.7, "inputRadius": 1.0}},
+        {
+          "CIColorControls": {
+            "inputSaturation": 0.9,
+            "inputBrightness": 0.1
+          }
+        },
+        {
+          "CIColorControls": {
+            "inputContrast": 1.5
+          }
+        },
+        {
+          "CIGaussianBlur": {
+            "inputRadius": 3.0
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.6
+          }
+        },
+        {
+          "CISharpenLuminance": {
+            "inputSharpness": 0.7
+          }
+        },
+        {
+          "CISepiaTone": {
+            "inputIntensity": 0.4
+          }
+        },
+        
+      ]
+    }
+  ]
+}
+

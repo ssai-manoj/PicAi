@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5CAABDDB-A133-402A-94D8-7AA4D5BEB9D9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D95AEDEF-8BC0-47DA-B363-89A43FFD2563"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "picaifinal/PhotoManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "save(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D95AEDEF-8BC0-47DA-B363-89A43FFD2563 - 1a5952039c4f2714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "picaifinal.PhotoManager.save(_: __C.UIImage, completion: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/PhotoManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "D95AEDEF-8BC0-47DA-B363-89A43FFD2563 - 340152e520b1a4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.PHAuthorizationStatus) -&gt; () in picaifinal.PhotoManager.save(_: __C.UIImage, completion: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/PhotoManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D95AEDEF-8BC0-47DA-B363-89A43FFD2563 - 340152e520b1a4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.PHAuthorizationStatus) -&gt; () in picaifinal.PhotoManager.save(_: __C.UIImage, completion: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/PhotoManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "377140F2-43B3-4AF0-B36F-C58A6A50EB3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "picaifinal/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "imageViewTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "377140F2-43B3-4AF0-B36F-C58A6A50EB3D - 1cb98c6314420e99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "picaifinal.ViewController.imageViewTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "377140F2-43B3-4AF0-B36F-C58A6A50EB3D - 1cb98c6314420e99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "picaifinal.ViewController.imageViewTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "377140F2-43B3-4AF0-B36F-C58A6A50EB3D - 1cb98c6314420edf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "picaifinal.ViewController.imageViewTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "364"
+                  endingLineNumber = "364"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "377140F2-43B3-4AF0-B36F-C58A6A50EB3D - 1cb98c6314420fe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "picaifinal.ViewController.imageViewTapped(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "picaifinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/applemini/Desktop/ios%20apps/picaifinal/picaifinal/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "371"
+                  endingLineNumber = "371"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
